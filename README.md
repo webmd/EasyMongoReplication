@@ -12,6 +12,13 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ##About
 This purpose of this program is to provide a better way to replicate MongoDB sharded clusters across different data centers. 
+
+The program allows for seperate clusters to maintain identical datasets with completely different internal configurations.
+
+This program provides an alternative to annoyingly complex replicaset/config server configuration across datacenters. 
+
+In a DR scenario, this program allows for easy Master/slave switching and turns DR into a "1 click process"
+
 This program is written in Python. 
 
 ##Usage
